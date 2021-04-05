@@ -1,0 +1,9 @@
+# How to remove horizontal scroll bar
+body{
+overflow-x:hidden!important;
+}
+
+# How to remove vertical scroll bar
+body::-webkit-scrollbar { 
+    display: none; 
+}
